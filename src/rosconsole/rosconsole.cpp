@@ -79,10 +79,10 @@ std::string g_last_error_message = "Unknown Error";
   #define COLOR_GREEN ""
   #define COLOR_YELLOW ""
 #else
-  #define COLOR_NORMAL "\033[0m"
-  #define COLOR_RED "\033[31m"
-  #define COLOR_GREEN "\033[32m"
-  #define COLOR_YELLOW "\033[33m"
+  #define COLOR_NORMAL "\033"
+  #define COLOR_RED "\033"
+  #define COLOR_GREEN "\033"
+  #define COLOR_YELLOW "\033"
 #endif
 const char* g_format_string = "[${severity}] [${time}]: ${message}";
 
